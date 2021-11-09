@@ -1,0 +1,129 @@
+[[{
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Alfred"
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Maniek"
+}, {
+  "paczki": ["M"],
+  "rozmiar": "M",
+  "użytkownik": "Adam"
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Alfred"
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": ["M"],
+  "rozmiar": "M",
+  "użytkownik": "Alfred"
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}], [{
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Zygmunt"
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Bartek"
+}, {
+  "paczki": [],
+  "rozmiar": "S",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "S",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}], [{
+  "paczki": [],
+  "rozmiar": "S",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "S",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}], [{
+  "paczki": [],
+  "rozmiar": "S",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}]]

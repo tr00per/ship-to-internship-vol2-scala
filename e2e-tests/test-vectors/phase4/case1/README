@@ -1,0 +1,25 @@
+Pusty paczkomat.
+Wrzucamy kilka paczek, musi się zadziać przenoszenie.
+Przenoszenie dwóch paczek S do M.
+Przenoszenie dwóch paczek S i dodanie paczki M do jednej L.
+Przeniesienie S i M do L.
+Sprawdzamy tutaj czy zauważą, że jak zajmą przenoszeniem M to muszą wkładać do kolejnej.
+
+|S:O S:O M:O L:O S:O L:O M:O M:O|
+|M:O M:O S:O S:O S:O S:O L:O M:O|
+|S:O L:O S:O L:O M:O L:O L:O L:O|
+|S:O M:O L:O M:O M:O M:O L:O L:O|
+
+BS@Alfred;
+BS@Maniek;
+BM@Adam;
+BS@Alfred;
+BS@Zygmunt;
+BS@Bartek;
+BM@Alfred;
+BM@Zygmunt
+
+|S:O S:M:Maniek M:M:Adam L:SSM:Alfred S:S:Bartek L:SM:Zygmunt M:O M:O|
+|M:O M:O S:O S:O S:O S:O L:O M:O|
+|S:O L:O S:O L:O M:O L:O L:O L:O|
+|S:O M:O L:O M:O M:O M:O L:O L:O|

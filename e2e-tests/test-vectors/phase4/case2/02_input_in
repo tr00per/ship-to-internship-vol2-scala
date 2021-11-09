@@ -1,0 +1,6 @@
+PUT
+/box
+{
+"rozmiar":"S",
+"użytkownik":"Alfred"
+}

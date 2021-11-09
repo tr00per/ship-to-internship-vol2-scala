@@ -1,0 +1,11 @@
+= Wstęp
+
+W tym etapie rozszerzamy nasz program o obsługę API RESTowego umożliwiającego stworzenie paczkomatu, dodawanie paczek
+zgodnie z wcześniejszymi założeniami ETAPU 3 oraz zwrócenie bieżącego stanu paczkomatu. +
+
+Opis API znajdziesz tu: https://swagger.otlabs.fr/
+
+<<<
+= Wymagania
+
+* Nasz paczkomat wystawia 5 endpointów zgodnie ze specyfikacją opisaną w dokumentacji OpenAPI

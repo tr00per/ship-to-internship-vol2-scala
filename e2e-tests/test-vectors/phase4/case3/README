@@ -1,0 +1,26 @@
+Trochę wypełniony paczkomat.
+Pakujemy go do pełna.
+Wykorzystujemy multipaczkę.
+Usuwamy multiskrytkę.
+
+
+|S:O M:M:Waclaw S:O S:O|
+|M:O M:SS:Alfred S:O S:O|
+|L:O S:O L:SSM:Bartek M:O|
+
+BS@Maniek;
+BS@Adam;
+BS@Zygmunt;
+BS@Krzysztof;
+BS@Piotr;
+BS@Bartek;
+BS@Waclaw
+TBartek
+BM@Bartek
+TAdam
+BM@Adam
+BS@Zygmunt
+
+|S:S:Maniek M:M:Adam S:O S:O|
+|M:SS:Zygmunt M:SS:Alfred S:S:Krzysztof S:S:Piotr|
+|L:SM:Bartek S:O L:SSM:Bartek M:O|

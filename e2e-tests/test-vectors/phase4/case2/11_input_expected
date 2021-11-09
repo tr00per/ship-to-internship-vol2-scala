@@ -1,0 +1,65 @@
+[[{
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Alfred"
+}, {
+  "paczki": ["M"],
+  "rozmiar": "M",
+  "użytkownik": "Bartek"
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Maniek"
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Adam"
+}], [{
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Zygmunt"
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}], [{
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "L",
+  "użytkownik": null
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}], [{
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Krzysztof"
+}, {
+  "paczki": [],
+  "rozmiar": "M",
+  "użytkownik": null
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Piotr"
+}, {
+  "paczki": ["S"],
+  "rozmiar": "S",
+  "użytkownik": "Bartek"
+}]]

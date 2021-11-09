@@ -1,0 +1,59 @@
+POST 
+/idemiomat
+[
+    [
+        {
+            "rozmiar": "S",
+            "paczki": [],
+            "użytkownik": null
+        }, {
+            "rozmiar": "M",
+            "paczki": ["M"],
+            "użytkownik": "Waclaw"
+        }, {
+            "rozmiar": "S",
+            "paczki": [],
+            "użytkownik": null
+        }, {
+            "rozmiar": "S",
+            "paczki": [],
+            "użytkownik": null
+        }
+    ],[
+        {
+            "rozmiar": "M",
+            "paczki": [],
+            "użytkownik": null
+        }, {
+            "rozmiar": "M",
+            "paczki": ["S","S"],
+            "użytkownik": "Alfred"
+        }, {
+            "rozmiar": "S",
+            "paczki": [],
+            "użytkownik": null
+        }, {
+            "rozmiar": "S",
+            "paczki": [],
+            "użytkownik": null
+        }
+    ], [
+        {
+            "rozmiar": "L",
+            "paczki": [],
+            "użytkownik": null
+        }, {
+            "rozmiar": "S",
+            "paczki": [],
+            "użytkownik": null
+        }, {
+            "rozmiar": "L",
+            "paczki": ["S","S","M"],
+            "użytkownik": "Bartek"
+        }, {
+            "rozmiar": "M",
+            "paczki": [],
+            "użytkownik": null
+        }
+    ]
+]

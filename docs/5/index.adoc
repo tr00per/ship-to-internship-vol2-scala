@@ -1,0 +1,8 @@
+= Etap 5 - RESTfull API - podpisanie zawartości
+:source-highlighter: rouge
+
+:leveloffset: +1
+
+include::wymagania.adoc[]
+
+:leveloffset: -1

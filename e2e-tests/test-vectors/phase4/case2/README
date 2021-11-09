@@ -1,0 +1,30 @@
+Pusty paczkomat.
+Wrzucamy kilka paczek.
+Usuwamy jedną paczkę.
+Dodajemy kilka dla jednego użytkownika bez przenoszenia.
+Wyjmujemy wszystkie dla jednego użytkownika.
+
+|S:O M:O S:O S:O|
+|L:O M:O S:O M:O|
+|M:O L:O L:O M:O|
+|S:O M:O S:O S:O|
+
+BS@Alfred;
+BS@Maniek;
+BS@Adam;
+BS@Zygmunt;
+BS@Krzysztof;
+BS@Piotr;
+BS@Bartek;
+BS@Waclaw
+TWaclaw
+BM@Bartek
+TAdam
+BM@Adam
+BL@Adam
+TAdam
+
+|S:S:Alfred M:O S:S:Maniek S:O|
+|L:SM:Bartek M:O S:S:Zygmunt M:O|
+|M:O L:O L:O M:O|
+|S:S:Krzysztof M:O S:S:Piotr S:O|

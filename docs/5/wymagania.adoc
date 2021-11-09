@@ -1,0 +1,13 @@
+= Wstęp
+
+W tym etapie chcemy podpisać odpowiedź zwracającą wraz podpisem
+
+<<<
+= Wymagania
+
+* Do endpointu GET /idemiomat/size dodajemy pole "podpis" gdzie jego zawartość to liczba podpisana HMAC256
+* Wykorzystaj klucz _0123456789ABCDEF_
+* Wskazówka! Wykorzystaj przykład z dokumentacji dostępnej pod adresem +
+ https://docs.oracle.com/en/java/javase/11/security/java-cryptography-architecture-jca-reference-guide.html#GUID-2BCFDD85-D533-4E6C-8CE9-29990DEB0190 +
+na dole strony w sekcji _HMAC-SHA256 Example_
+
