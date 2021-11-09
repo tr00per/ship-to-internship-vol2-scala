@@ -1,0 +1,17 @@
+:leveloffset: +1
+
+Twoim zadaniem jest zaimplementowanie oprogramowania sterującego dla Idemiomatu - innowacyjnego urządzenia umożliwiającego
+nadawanie i odbiór paczek.
+
+Ogólne wymagania do wszystkich etapów:
+
+* aplikacja konsolowa która input bierze z STDIN i zwraca output na STDOUT
+* aplikacja powinna pisać tylko elementy opisane w wymaganiach - dodatkowe logowanie może spowodować niepoprawne działanie skryptów walidujących oraz akceptację wykonania etapu
+
+
+_Uwaga!_
+Jeśli widzisz jakieś sytuacje brzegowe które należy obsłużyć - pozostaw stosowny komentarz w kodzie
+
+Powodzenia :)
+
+:leveloffset: -1

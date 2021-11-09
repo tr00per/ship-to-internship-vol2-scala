@@ -1,0 +1,8 @@
+= Etap 1 - Idemiomat i jego paczki
+:source-highlighter: rouge
+
+:leveloffset: +1
+
+include::wymagania.adoc[]
+
+:leveloffset: -1

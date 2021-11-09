@@ -1,0 +1,66 @@
+= Wstęp
+
+W tym etapie rozszerzamy nasz program o obsługę kilku paczek w 1 skrytce oraz paczki mają przypisanego odbiorcę, dodatkowo
+wprowadzamy komendę opróżniania skrytek
+
+<<<
+= Wymagania
+
+* Nasz paczkomat obsługuje teraz paczki o rozmiarach S;M;L przypisane do danego odbiorcy. Jedna paczka może mieć tylko jednego odbiorcę, ale
+odbiorca może mieć do odebrania wiele paczek
+* Do skrytki danego rozmiaru można załadować kilka paczek zgodnie z polityką:
+----
+paczka L = 2 paczki M
+paczka M = 2 paczki S
+
+dlatego:
+
+skrytka S -> przyjmie 1 paczkę S
+skrytka M -> przyjmie 2 paczki S lub 1 paczkę M
+skrytka L -> przyjmie 2 paczki M lub 4 paczki S lub 2 paczki S i 1 paczkę M lub 1 paczkę L
+----
+* Przy wkładaniu paczek należy je posortować w ramach skrytki od najmniejszych do największych
+* Rozszerzamy tworzenie paczkomatu o rozmiary skrytek i ich zajętość wraz z odbiorami poszczególnych paczek, przykładowo
++
+[source]
+----
+|S:O S:O L:X@dani M:S@boomboom M:O|
+|L:SSM@chorizo L:MSS@guapo L:S@boomboom M:SS@dani M:O|
+----
+gdzie +
+----
+ W przypadku pustej skrytki korzystamy z notacji z ETAPU 2 -> S:O; M:O; L:O
+
+ W przypadku zajętej skrytki dostajemy jakie paczki są w tej skrytce i do kogo należą, przykładowo: +
+
+ M:S@boomboom -> oznacza średnią skrytkę zajętą przez 1 paczkę S należącą do użytkownika boomboom (zauważ że skrytka ma potencjalnie jedno miejsce S na skrytkę tego samego użytkownika)
+
+L:SSM@chico -> oznacza dużą skrytkę z załadowanymi 2 paczkami S oraz 1 M oczekującą na odbiór przez użytkownika chorizo (zauważ, że skrytka
+jest zajęta i nie da się do niej dołożyć żadnej paczki)
+
+L:X@dani -> oznacza paczkę rozmiaru pasującego do skrytki (L) należącą do odbiorcy dani
+----
+* Po stworzeniu paczkomatu można podać dowolną liczbę razy komendę dodającą paczki do paczkomatu w formie:
+[source]
+----
+BM@chorizo;BS@dani;BL@boomboom;B@dani
+----
+gdzie +
+__BS@dani__ lub __B@dani__  oznacza akcję dodania nowej paczki małej dla użytkownika dani +
+__BM@chorizo__ oznacza akcję dodania nowej paczki średniej dla użytkownika chorizo +
+__BL__ oznacza akcję dodania nowej paczki dużej dla użytkownika chorizo +
+
+* Wprowadzamy możliwość wyjęcia paczek dla danego odbiorcy w formacie
+----
+T<odbiorca>   przykładowo:
+Tdani - wyjmuje wszystkie paczki z paczkomatu dla odbiorcy dani
+----
+
+przykładowo:
+
+----
+Tdani;Tchorizo - opróżnia wszystkie skrytki zajęte przez paczki użytkownika dani oraz chorizo
+----
+
+
+* Przy wypisywaniu stanu paczkomatu powinny być one wypisane od najmniejszej do największej w obrębie danej skrytki

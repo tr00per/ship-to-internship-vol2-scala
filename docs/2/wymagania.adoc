@@ -1,0 +1,52 @@
+= Wstęp
+
+W tym etapie rozszerzamy nasz program o obsługę różnych rozmiarów skrytek i paczek
+
+<<<
+= Wymagania
+
+* Nasz paczkomat obsługuje teraz paczki o rozmiarach S;M;L
+* Do skrytki danego rozmiaru pasuje paczka o rozmiarze conajwyżej rozmiaru skrytki, dlatego do skrytki:
+----
+S -> wejdzie tylko paczka o rozmiarze S
+M -> wejdzie paczka o rozmiarze S lub paczka o rozmiarze M
+L -> wejdzie paczka o rozmiarze S lub paczka o rozmiarze M lub paczka o rozmiarze L
+----
+* Daną paczkę wkładamy do pierwszej skrytki o minimalnym rozmiarze jaką znajdziemy
+* Rozszerzamy tworzenie paczkomatu o rozmiary skrytek i ich zajętość, przykładowo
+[source]
+----
+|S:S S:O S:O M:X M:M|
+|L:O L:O S:X M:S L:S|
+----
+gdzie +
+__S:X__ lub __S:S__ oznacza skrytkę S zawierającą paczkę S +
+__S:O__ oznacza małą skrytkę pustą +
+__M:X__ lub __M:X__ oznacza skrytkę M zawierającą paczkę M +
+__M:O__ oznacza średnią skrytkę pustą +
+__L:X__ lub __L:L__ oznacza skrytkę L zawierającą paczkę L +
+__L:O__ oznacza duzą skrytkę pustą+
+
+* Po stworzeniu paczkomatu można podać dowolną liczbę razy komendę dodającą paczki do paczkomatu w formie:
+[source]
+----
+BM;BS;BL;B
+----
+gdzie +
+__BS__ lub __B__  oznacza akcję dodania nowej paczki małej +
+__BM__ oznacza akcję dodania nowej paczki średniej +
+__BL__ oznacza akcję dodania nowej paczki dużej +
+
+* Wkładanie paczek obsługujemy w kolejności od lewej do prawej
+
+* Przy wypisaniu paczkomatu - paczki pasujące rozmiarem do skytki wypisuje jako "X" a nie po identyfikatorze rozmiaru, przykładowo
+
+----
+|S:X M:X L:X|
+----
+
+zamiast
+
+----
+|S:S M:M L:L|
+----

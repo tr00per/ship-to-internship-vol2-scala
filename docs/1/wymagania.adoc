@@ -1,0 +1,60 @@
+= Wstęp
+
+W pierwszym etapie tworzymy prosty program do obsługi paczkomatu. Program posiada możliwość stworzenia paczkomatu o dowolnym rozmiarze
+oraz obsługiwać procedurę dodawania paczek
+
+
+= Wymagania
+
+* W aplikacji obsługujemy tylko jeden paczkomat
+* Paczkomat jest prostokątem o rozmiarze M x N
+* _UWAGA!_ Dotyczy wszystkich kolejnych etapów! Po stworzeniu paczkomatu, każda komenda wprowadzona przez użytkownika powinna wypisywać stan paczkomatu w takich formacie w jakim przekazywany jest paczkomat na początku działania programu
+* Paczkomat jest tworzony poprzez podanie jego wejściowej konfiguracji (rozmiaru oraz wstępnej zajętości) w formacie:
+[source]
+----
+|S:X S:O|
+|S:O S:O|
+----
+gdzie podany przykład jest paczkomatem o rozmiarze 2x2 z 1 skrytką zajętą i 3 pustymi (wolnymi) +
+__S:X__ oznacza skrytkę zajętą +
+__S:O__ oznacza skrytkę pustą +
+
+* Stworzenie paczkomatu odbywa się poprzez wielokrotne wczytanie lini paczkomatu, zakończenie tworzenia paczkomatu
+odbywa się poprzez wprowadzenie pustej lini
+* Po stworzeniu paczkomatu można podać dowolną liczbę razy komendę dodającą paczki do paczkomatu w formie:
+* Program powinien być odporny na niezamierzony input - po wprowadzeniu nie obsługiwanej komendy program powinien wypisać stan paczkomatu
+[source]
+----
+B;B
+----
+gdzie poszczególne paczki oddzielone są __;__ +
+
+* zakładamy że komendy dodające które przyjdą nigdy nie przepełnią paczkomatu i są możliwe do wykonania
+* paczki powinny być wkładane do paczkomatu od lewej górnej skrytki a następnie w prawo, w przypadku zapełnienia całego rzędu
+rozważamy kolejny rząd od lewej strony
+* jedna skrytka mieści tylko jedną paczkę
+
+dla przykładu dla paczkomatu o rozmiarze 4x2 z następująca konfiguracją wstępną (3 skrytki zajęte, 5 wolnych)
+[source]
+----
+|S:X S:O S:X S:O|
+|S:O S:O S:O S:X|
+----
+po wykonaniu operacji dodania 3 paczek
+----
+B;B;B
+----
+stan paczkomatu powinien prezentować się następująco
+----
+|S:X S:X S:X S:X|
+|S:X S:O S:O S:X|
+----
+po wykonaniu kolejnej komendy dodania
+----
+B
+----
+stan paczkomatu powinien prezentować się następująco
+----
+|S:X S:X S:X S:X|
+|S:X S:X S:O S:X|
+----

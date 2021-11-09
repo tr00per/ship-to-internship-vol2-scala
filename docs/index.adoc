@@ -1,0 +1,17 @@
+= Idemiomat
+
+:leveloffset: +1
+
+include::intro.adoc[]
+
+include::1/index.adoc[]
+
+include::2/index.adoc[]
+
+include::3/index.adoc[]
+
+include::4/index.adoc[]
+
+include::5/index.adoc[]
+
+:leveloffset: -1

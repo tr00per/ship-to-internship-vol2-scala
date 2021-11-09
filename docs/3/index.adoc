@@ -1,0 +1,8 @@
+= Etap 3 - Multiskrytka i grupowanie po odbiorcach
+:source-highlighter: rouge
+
+:leveloffset: +1
+
+include::wymagania.adoc[]
+
+:leveloffset: -1
